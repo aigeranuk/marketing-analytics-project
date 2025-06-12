@@ -1,11 +1,17 @@
-**Marketing Campaign Effectiveness Analysis: Methodology and Goals**
+# Marketing Analytics Project
 
-This mock dataset has been developed to demonstrate how to evaluate the effectiveness of marketing campaigns using advanced analytics techniques. The structure and approach are based on real-world use cases and insights gathered from my experience as a Senior Data Analyst.
+This is a portfolio project focused on **analyzing marketing campaign performance** using a synthetic dataset. It includes exploratory data analysis (EDA), segment analysis, and A/B testing (frequentist and Bayesian) to derive actionable business insights.
+
+---
+
+##  Project Goal
+
+To evaluate and compare the effectiveness of marketing campaigns across different **channels**, **regions**, and **customer segments**, and provide data-driven recommendations on which campaigns to **continue**, **optimize**, or **stop**.
+
 
 The primary objective in analyzing marketing effectiveness is to determine which channels perform best in driving conversions. Businesses are typically interested in metrics such as:
 
 * **Conversion Rate**
-* **Return on Ad Spend (ROAS)**
 * **Cost per Conversion**
 
 These metrics help inform decisions about budget allocation and strategic focus across marketing channels.
@@ -27,3 +33,25 @@ The analysis will follow a structured approach:
    Finally, we dive deeper into individual campaigns to assess their lift using causal inference techniques. This helps isolate the actual impact of campaigns from other confounding factors.
 
 Through this layered analysis, we aim to answer critical business questions around which channels and campaigns are truly driving value, and how performance varies by audience segment.
+
+---
+
+## Tools & Technologies
+
+- Python (Pandas, Seaborn, SciPy, PyMC3)
+- Jupyter Notebooks
+- Matplotlib
+- GitHub
+
+---
+
+## 📂 Project Structure
+
+```bash
+marketing-analytics-project/
+│
+├── data/                # Simulated marketing dataset
+├── notebooks/           # Jupyter notebooks with EDA & analysis
+├── images/              # Charts and visualizations
+├── README.md            # Project description and insights
+
