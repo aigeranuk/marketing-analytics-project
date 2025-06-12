@@ -27,7 +27,3 @@ The analysis will follow a structured approach:
    Finally, we dive deeper into individual campaigns to assess their lift using causal inference techniques. This helps isolate the actual impact of campaigns from other confounding factors.
 
 Through this layered analysis, we aim to answer critical business questions around which channels and campaigns are truly driving value, and how performance varies by audience segment.
-
----
-
-Let me know if you want this included in a report format or presentation slide.
