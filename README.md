@@ -1,59 +1,33 @@
-# marketing-analytics-project
-Advanced marketing campaign end-to-end analysis
+**Marketing Campaign Effectiveness Analysis: Methodology and Goals**
 
-Analysis of the effectiveness of marketing campaigns across various online channels using advanced data science techniques, including cohort analysis, A/B testing, Bayesian inference, and causal inference.
+This mock dataset has been developed to demonstrate how to evaluate the effectiveness of marketing campaigns using advanced analytics techniques. The structure and approach are based on real-world use cases and insights gathered from my experience as a Senior Data Analyst.
 
-# Marketing Analytics Project
+The primary objective in analyzing marketing effectiveness is to determine which channels perform best in driving conversions. Businesses are typically interested in metrics such as:
 
-**Advanced marketing campaign end-to-end analysis**
+* **Conversion Rate**
+* **Return on Ad Spend (ROAS)**
+* **Cost per Conversion**
 
-This project focuses on evaluating the effectiveness of marketing campaigns conducted across various online channels such as Email, Social Media, Search, and SMS. It combines multiple advanced data science techniques to uncover insights into user behavior, campaign performance, and ROI.
+These metrics help inform decisions about budget allocation and strategic focus across marketing channels.
 
-## Objectives
+### Analysis Approach
 
-- Assess user retention and engagement over time using **cohort analysis**
-- Evaluate campaign performance with **A/B testing**
-- Apply **Bayesian statistical methods** for more robust inference
-- Estimate **causal impact** of campaigns using **propensity score matching** and **treatment effect estimation**
+The analysis will follow a structured approach:
 
-## 🛠 Methods & Techniques
+1. **Data Cleaning & Exploration**
+   We begin by preparing the dataset for analysis, identifying outliers, inconsistencies, and missing values.
 
-- Cohort Analysis
-- Classical A/B Testing with `scipy.stats`
-- Bayesian A/B Testing
-- Causal Inference (Propensity Score Matching, Average Treatment Effect)
-- Logistic Regression for Propensity Scores
-- Nearest Neighbor Matching
+2. **Descriptive Analysis**
+   We summarize key performance indicators (KPIs) such as average conversion rates and ROAS by channel and customer segment.
 
-## Data Features
+3. **Comparative Effectiveness Analysis**
+   Using both classical A/B testing and Bayesian A/B testing, we compare the performance of marketing channels across various customer segments to understand statistical significance and probability-based insights.
 
-Each row in the dataset represents a user interaction from a specific campaign, with fields such as:
+4. **Campaign-Level Causal Inference**
+   Finally, we dive deeper into individual campaigns to assess their lift using causal inference techniques. This helps isolate the actual impact of campaigns from other confounding factors.
 
-- `User_ID`
-- `Campaign_ID`
-- `Date`, `Week`, `Month`, `Quarter`
-- `Channel`, `Region`, `Segment`
-- `Spend_USD`, `Impressions`, `Clicks`, `CTR`, `Conversion_Rate`, `CPA`, `CPC`
-- Derived metrics: `Activity_Month`, `Cohort_Month`, `Cohort_Index`
+Through this layered analysis, we aim to answer critical business questions around which channels and campaigns are truly driving value, and how performance varies by audience segment.
 
-## Notebooks and Scripts
+---
 
-- `cohort_analysis.ipynb`: Monthly retention analysis
-- `ab_testing.py`: Classical and Bayesian A/B testing on CTR
-- `causal_inference.py`: Propensity score modeling and ATT estimation
-- `campaign_loop_analysis.py`: Campaign-by-campaign causal effect evaluation
-
-## Sample Outputs
-
-- Retention heatmaps by cohort
-- Confidence intervals for conversion uplift
-- ATT estimates per campaign
-- Matched treatment-control distributions
-
-##  How to Run
-
-Clone the repo and run the notebooks or scripts in your Python environment (JupyterLab, JupyterHub, or VS Code).
-
-```bash
-git clone https://github.com/yourusername/marketing-analytics-project.git
-cd marketing-analytics-project
+Let me know if you want this included in a report format or presentation slide.
